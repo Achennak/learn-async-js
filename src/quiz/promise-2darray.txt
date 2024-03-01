@@ -1,2 +1,6 @@
 Explain the code execution based on the order of the messages logged in src/quiz/promise-2darray.txt.
-code is executed synchronoulsy
+This code defines a function sum2DArray that asynchronously calculates the sum of all elements in a 2D array. 
+It first checks if the input is an array. 
+If valid, it uses nested loops to iterate through the array and sum all elements.
+ The result is then resolved and logged. Otherwise, it rejects the promise with an error message. 
+The example usage demonstrates how to call the function and handle its resolved and rejected states using Promise.
